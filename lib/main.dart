@@ -1,4 +1,5 @@
 import 'package:bytebank/models/saldo.dart';
+import 'package:bytebank/screens/autenticacao/login.dart';
 import 'package:bytebank/screens/dashboard/dashboard.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -29,7 +30,7 @@ class BytebankApp extends StatelessWidget {
           textTheme: ButtonTextTheme.primary,
         ),
       ),
-      home: Dashboard(),
+      home: Login(),
     );
   }
 }
